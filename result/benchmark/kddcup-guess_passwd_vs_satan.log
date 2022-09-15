@@ -1,0 +1,66 @@
+kddcup-guess_passwd_vs_satan
+bin: 30
+lmnn1:
+not converge
+tp + fn:  16 : 493
+tp + fp:  15 : 493
+tp:  15 : 493
+recall:  0.9375
+precision:  1.0
+f1_score:  0.967741935483871
+AUC:  0.96875
+**********
+lmnn2:
+tp + fn:  16 : 493
+tp + fp:  15 : 493
+tp:  15 : 493
+recall:  0.9375
+precision:  1.0
+f1_score:  0.967741935483871
+AUC:  0.96875
+**********
+lmnn:
+tp + fn:  16 : 493
+tp + fp:  15 : 493
+tp:  15 : 493
+recall:  0.9375
+precision:  1.0
+f1_score:  0.967741935483871
+AUC:  0.96875
+**********
+self-paced:
+tp + fn:  16 : 493
+tp + fp:  16 : 493
+tp:  16 : 493
+recall:  1.0
+precision:  1.0
+f1_score:  1.0
+AUC:  1.0
+**********
+DDAE:
+tp + fn:  16 : 493
+tp + fp:  16 : 493
+tp:  16 : 493
+recall:  1.0
+precision:  1.0
+f1_score:  1.0
+AUC:  1.0
+**********
+RP:
+tp + fn:  16 : 493
+tp + fp:  16 : 493
+tp:  16 : 493
+recall:  1.0
+precision:  1.0
+f1_score:  1.0
+AUC:  1.0
+**********
+xgb:
+[07:45:03] WARNING: xgboost/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+tp + fn:  16 : 493
+tp + fp:  16 : 493
+tp:  16 : 493
+recall:  1.0
+precision:  1.0
+f1_score:  1.0
+AUC:  1.0

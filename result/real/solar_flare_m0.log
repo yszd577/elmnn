@@ -1,0 +1,65 @@
+solar_flare_m0
+bin: 24
+lmnn1:
+tp + fn:  20 : 417
+tp + fp:  153 : 417
+tp:  14 : 417
+recall:  0.7
+precision:  0.0915032679738562
+f1_score:  0.16184971098265896
+AUC:  0.6749370277078085
+**********
+lmnn2:
+tp + fn:  20 : 417
+tp + fp:  136 : 417
+tp:  13 : 417
+recall:  0.65
+precision:  0.09558823529411764
+f1_score:  0.16666666666666666
+AUC:  0.6700881612090681
+**********
+lmnn:
+tp + fn:  20 : 417
+tp + fp:  3 : 417
+tp:  0 : 417
+recall:  0.0
+precision:  0.0
+f1_score:  0.0
+AUC:  0.49622166246851385
+**********
+self-paced:
+tp + fn:  20 : 417
+tp + fp:  150 : 417
+tp:  14 : 417
+recall:  0.7
+precision:  0.09333333333333334
+f1_score:  0.16470588235294115
+AUC:  0.6787153652392945
+**********
+DDAE:
+tp + fn:  20 : 417
+tp + fp:  157 : 417
+tp:  15 : 417
+recall:  0.75
+precision:  0.09554140127388536
+f1_score:  0.16949152542372883
+AUC:  0.6961586901763224
+**********
+RP:
+tp + fn:  20 : 417
+tp + fp:  142 : 417
+tp:  15 : 417
+recall:  0.75
+precision:  0.1056338028169014
+f1_score:  0.1851851851851852
+AUC:  0.7150503778337531
+**********
+xgb:
+[11:15:32] WARNING: xgboost/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+tp + fn:  20 : 417
+tp + fp:  8 : 417
+tp:  2 : 417
+recall:  0.1
+precision:  0.25
+f1_score:  0.14285714285714288
+AUC:  0.5424433249370277

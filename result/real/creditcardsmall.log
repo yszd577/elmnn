@@ -1,0 +1,66 @@
+creditcardsmall
+bin: 367
+lmnn1:
+not converge
+tp + fn:  28 : 8544
+tp + fp:  424 : 8544
+tp:  27 : 8544
+recall:  0.9642857142857143
+precision:  0.06367924528301887
+f1_score:  0.11946902654867256
+AUC:  0.9588337918539893
+**********
+lmnn2:
+tp + fn:  28 : 8544
+tp + fp:  434 : 8544
+tp:  27 : 8544
+recall:  0.9642857142857143
+precision:  0.06221198156682028
+f1_score:  0.1168831168831169
+AUC:  0.9582466617459572
+**********
+lmnn:
+tp + fn:  28 : 8544
+tp + fp:  21 : 8544
+tp:  21 : 8544
+recall:  0.75
+precision:  1.0
+f1_score:  0.8571428571428571
+AUC:  0.875
+**********
+self-paced:
+tp + fn:  28 : 8544
+tp + fp:  27 : 8544
+tp:  26 : 8544
+recall:  0.9285714285714286
+precision:  0.9629629629629629
+f1_score:  0.9454545454545454
+AUC:  0.9642270012749111
+**********
+DDAE:
+tp + fn:  28 : 8544
+tp + fp:  319 : 8544
+tp:  24 : 8544
+recall:  0.8571428571428571
+precision:  0.07523510971786834
+f1_score:  0.13832853025936598
+AUC:  0.9112510903844864
+**********
+RP:
+tp + fn:  28 : 8544
+tp + fp:  202 : 8544
+tp:  27 : 8544
+recall:  0.9642857142857143
+precision:  0.13366336633663367
+f1_score:  0.2347826086956522
+AUC:  0.9718680802522982
+**********
+xgb:
+[10:33:03] WARNING: xgboost/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+tp + fn:  28 : 8544
+tp + fp:  22 : 8544
+tp:  22 : 8544
+recall:  0.7857142857142857
+precision:  1.0
+f1_score:  0.88
+AUC:  0.8928571428571428

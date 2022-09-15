@@ -1,0 +1,59 @@
+poker-8-9_vs_6
+bin: 13
+lmnn1:
+tp + fn:  8 : 446
+tp + fp:  16 : 446
+tp:  8 : 446
+recall:  1.0
+precision:  0.5
+f1_score:  0.6666666666666666
+AUC:  0.9908675799086758
+lmnn2:
+tp + fn:  8 : 446
+tp + fp:  9 : 446
+tp:  8 : 446
+recall:  1.0
+precision:  0.8888888888888888
+f1_score:  0.9411764705882353
+AUC:  0.9988584474885845
+lmnn:
+tp + fn:  8 : 446
+tp + fp:  7 : 446
+tp:  7 : 446
+recall:  0.875
+precision:  1.0
+f1_score:  0.9333333333333333
+AUC:  0.9375
+self-paced:
+tp + fn:  8 : 446
+tp + fp:  359 : 446
+tp:  8 : 446
+recall:  1.0
+precision:  0.022284122562674095
+f1_score:  0.043596730245231606
+AUC:  0.5993150684931507
+DDAE:
+tp + fn:  8 : 446
+tp + fp:  302 : 446
+tp:  8 : 446
+recall:  1.0
+precision:  0.026490066225165563
+f1_score:  0.05161290322580646
+AUC:  0.6643835616438356
+RP:
+tp + fn:  8 : 446
+tp + fp:  173 : 446
+tp:  7 : 446
+recall:  0.875
+precision:  0.04046242774566474
+f1_score:  0.07734806629834255
+AUC:  0.7480022831050228
+xgb:
+[16:56:26] WARNING: xgboost/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+tp + fn:  8 : 446
+tp + fp:  1 : 446
+tp:  1 : 446
+recall:  0.125
+precision:  1.0
+f1_score:  0.2222222222222222
+AUC:  0.5625

@@ -1,0 +1,59 @@
+poker-8_vs_6
+bin: 1
+lmnn1:
+tp + fn:  5 : 444
+tp + fp:  5 : 444
+tp:  5 : 444
+recall:  1.0
+precision:  1.0
+f1_score:  1.0
+AUC:  1.0
+lmnn2:
+tp + fn:  5 : 444
+tp + fp:  5 : 444
+tp:  5 : 444
+recall:  1.0
+precision:  1.0
+f1_score:  1.0
+AUC:  1.0
+lmnn:
+tp + fn:  5 : 444
+tp + fp:  5 : 444
+tp:  5 : 444
+recall:  1.0
+precision:  1.0
+f1_score:  1.0
+AUC:  1.0
+self-paced:
+tp + fn:  5 : 444
+tp + fp:  402 : 444
+tp:  5 : 444
+recall:  1.0
+precision:  0.012437810945273632
+f1_score:  0.024570024570024572
+AUC:  0.5478359908883828
+DDAE:
+tp + fn:  5 : 444
+tp + fp:  375 : 444
+tp:  5 : 444
+recall:  1.0
+precision:  0.013333333333333334
+f1_score:  0.02631578947368421
+AUC:  0.5785876993166287
+RP:
+tp + fn:  5 : 444
+tp + fp:  202 : 444
+tp:  4 : 444
+recall:  0.8
+precision:  0.019801980198019802
+f1_score:  0.03864734299516908
+AUC:  0.6744874715261959
+xgb:
+[16:58:07] WARNING: xgboost/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+tp + fn:  5 : 444
+tp + fp:  0 : 444
+tp:  0 : 444
+recall:  0.0
+precision:  0.0
+f1_score:  0.0
+AUC:  0.5

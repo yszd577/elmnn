@@ -1,0 +1,65 @@
+sample2Dm
+bin: 16
+lmnn1:
+tp + fn:  43 : 600
+tp + fp:  136 : 600
+tp:  39 : 600
+recall:  0.9069767441860465
+precision:  0.2867647058823529
+f1_score:  0.435754189944134
+AUC:  0.8664147634754289
+**********
+lmnn2:
+tp + fn:  43 : 600
+tp + fp:  136 : 600
+tp:  38 : 600
+recall:  0.8837209302325582
+precision:  0.27941176470588236
+f1_score:  0.4245810055865922
+AUC:  0.8538891904304622
+**********
+lmnn:
+tp + fn:  43 : 600
+tp + fp:  30 : 600
+tp:  25 : 600
+recall:  0.5813953488372093
+precision:  0.8333333333333334
+f1_score:  0.684931506849315
+AUC:  0.7862093440774915
+**********
+self-paced:
+tp + fn:  43 : 600
+tp + fp:  96 : 600
+tp:  35 : 600
+recall:  0.813953488372093
+precision:  0.3645833333333333
+f1_score:  0.5035971223021583
+AUC:  0.8522191140244667
+**********
+DDAE:
+tp + fn:  43 : 600
+tp + fp:  134 : 600
+tp:  36 : 600
+recall:  0.8372093023255814
+precision:  0.26865671641791045
+f1_score:  0.4067796610169491
+AUC:  0.8306333764769739
+**********
+RP:
+tp + fn:  43 : 600
+tp + fp:  181 : 600
+tp:  39 : 600
+recall:  0.9069767441860465
+precision:  0.2154696132596685
+f1_score:  0.34821428571428575
+AUC:  0.8260197904054111
+**********
+xgb:
+[05:06:54] WARNING: xgboost/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+tp + fn:  43 : 600
+tp + fp:  25 : 600
+tp:  18 : 600
+recall:  0.4186046511627907
+precision:  0.72
+f1_score:  0.5294117647058824
+AUC:  0.703018663103837

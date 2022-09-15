@@ -1,0 +1,66 @@
+abalone_19
+bin: 94
+lmnn1:
+not converge
+tp + fn:  10 : 1254
+tp + fp:  282 : 1254
+tp:  7 : 1254
+recall:  0.7
+precision:  0.024822695035460994
+f1_score:  0.04794520547945206
+AUC:  0.7394694533762057
+**********
+lmnn2:
+tp + fn:  10 : 1254
+tp + fp:  253 : 1254
+tp:  5 : 1254
+recall:  0.5
+precision:  0.019762845849802372
+f1_score:  0.03802281368821293
+AUC:  0.6503215434083602
+**********
+lmnn:
+tp + fn:  10 : 1254
+tp + fp:  0 : 1254
+tp:  0 : 1254
+recall:  0.0
+precision:  0.0
+f1_score:  0.0
+AUC:  0.5
+**********
+self-paced:
+tp + fn:  10 : 1254
+tp + fp:  643 : 1254
+tp:  6 : 1254
+recall:  0.6
+precision:  0.00933125972006221
+f1_score:  0.018376722817764167
+AUC:  0.5439710610932476
+**********
+DDAE:
+tp + fn:  10 : 1254
+tp + fp:  425 : 1254
+tp:  7 : 1254
+recall:  0.7
+precision:  0.01647058823529412
+f1_score:  0.03218390804597701
+AUC:  0.6819935691318328
+**********
+RP:
+tp + fn:  10 : 1254
+tp + fp:  399 : 1254
+tp:  6 : 1254
+recall:  0.6
+precision:  0.015037593984962405
+f1_score:  0.029339853300733493
+AUC:  0.6420418006430868
+**********
+xgb:
+[11:30:04] WARNING: xgboost/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+tp + fn:  10 : 1254
+tp + fp:  0 : 1254
+tp:  0 : 1254
+recall:  0.0
+precision:  0.0
+f1_score:  0.0
+AUC:  0.5

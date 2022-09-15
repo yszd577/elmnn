@@ -1,0 +1,66 @@
+kddcup-rootkit-imap_vs_back
+bin: 102
+lmnn1:
+not converge
+tp + fn:  7 : 668
+tp + fp:  7 : 668
+tp:  7 : 668
+recall:  1.0
+precision:  1.0
+f1_score:  1.0
+AUC:  1.0
+**********
+lmnn2:
+tp + fn:  7 : 668
+tp + fp:  7 : 668
+tp:  7 : 668
+recall:  1.0
+precision:  1.0
+f1_score:  1.0
+AUC:  1.0
+**********
+lmnn:
+tp + fn:  7 : 668
+tp + fp:  7 : 668
+tp:  7 : 668
+recall:  1.0
+precision:  1.0
+f1_score:  1.0
+AUC:  1.0
+**********
+self-paced:
+tp + fn:  7 : 668
+tp + fp:  5 : 668
+tp:  5 : 668
+recall:  0.7142857142857143
+precision:  1.0
+f1_score:  0.8333333333333333
+AUC:  0.8571428571428572
+**********
+DDAE:
+tp + fn:  7 : 668
+tp + fp:  7 : 668
+tp:  7 : 668
+recall:  1.0
+precision:  1.0
+f1_score:  1.0
+AUC:  1.0
+**********
+RP:
+tp + fn:  7 : 668
+tp + fp:  7 : 668
+tp:  7 : 668
+recall:  1.0
+precision:  1.0
+f1_score:  1.0
+AUC:  1.0
+**********
+xgb:
+[07:43:15] WARNING: xgboost/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+tp + fn:  7 : 668
+tp + fp:  7 : 668
+tp:  7 : 668
+recall:  1.0
+precision:  1.0
+f1_score:  1.0
+AUC:  1.0

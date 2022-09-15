@@ -1,0 +1,65 @@
+yeast-1_vs_7
+bin: 18
+lmnn1:
+tp + fn:  9 : 138
+tp + fp:  47 : 138
+tp:  8 : 138
+recall:  0.8888888888888888
+precision:  0.1702127659574468
+f1_score:  0.2857142857142857
+AUC:  0.79328165374677
+**********
+lmnn2:
+tp + fn:  9 : 138
+tp + fp:  47 : 138
+tp:  8 : 138
+recall:  0.8888888888888888
+precision:  0.1702127659574468
+f1_score:  0.2857142857142857
+AUC:  0.79328165374677
+**********
+lmnn:
+tp + fn:  9 : 138
+tp + fp:  2 : 138
+tp:  2 : 138
+recall:  0.2222222222222222
+precision:  1.0
+f1_score:  0.3636363636363636
+AUC:  0.6111111111111112
+**********
+self-paced:
+tp + fn:  9 : 138
+tp + fp:  49 : 138
+tp:  8 : 138
+recall:  0.8888888888888888
+precision:  0.16326530612244897
+f1_score:  0.27586206896551724
+AUC:  0.7855297157622738
+**********
+DDAE:
+tp + fn:  9 : 138
+tp + fp:  25 : 138
+tp:  7 : 138
+recall:  0.7777777777777778
+precision:  0.28
+f1_score:  0.4117647058823529
+AUC:  0.8191214470284237
+**********
+RP:
+tp + fn:  9 : 138
+tp + fp:  59 : 138
+tp:  8 : 138
+recall:  0.8888888888888888
+precision:  0.13559322033898305
+f1_score:  0.2352941176470588
+AUC:  0.7467700258397932
+**********
+xgb:
+[05:07:54] WARNING: xgboost/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+tp + fn:  9 : 138
+tp + fp:  4 : 138
+tp:  1 : 138
+recall:  0.1111111111111111
+precision:  0.25
+f1_score:  0.15384615384615383
+AUC:  0.5439276485788114

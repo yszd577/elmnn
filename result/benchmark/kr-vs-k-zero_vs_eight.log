@@ -1,0 +1,65 @@
+kr-vs-k-zero_vs_eight
+bin: 17
+lmnn1:
+tp + fn:  8 : 438
+tp + fp:  10 : 438
+tp:  8 : 438
+recall:  1.0
+precision:  0.8
+f1_score:  0.888888888888889
+AUC:  0.9976744186046512
+**********
+lmnn2:
+tp + fn:  8 : 438
+tp + fp:  11 : 438
+tp:  8 : 438
+recall:  1.0
+precision:  0.7272727272727273
+f1_score:  0.8421052631578948
+AUC:  0.9965116279069767
+**********
+lmnn:
+tp + fn:  8 : 438
+tp + fp:  7 : 438
+tp:  7 : 438
+recall:  0.875
+precision:  1.0
+f1_score:  0.9333333333333333
+AUC:  0.9375
+**********
+self-paced:
+tp + fn:  8 : 438
+tp + fp:  68 : 438
+tp:  8 : 438
+recall:  1.0
+precision:  0.11764705882352941
+f1_score:  0.21052631578947367
+AUC:  0.9302325581395349
+**********
+DDAE:
+tp + fn:  8 : 438
+tp + fp:  96 : 438
+tp:  8 : 438
+recall:  1.0
+precision:  0.08333333333333333
+f1_score:  0.15384615384615385
+AUC:  0.8976744186046511
+**********
+RP:
+tp + fn:  8 : 438
+tp + fp:  36 : 438
+tp:  8 : 438
+recall:  1.0
+precision:  0.2222222222222222
+f1_score:  0.3636363636363636
+AUC:  0.9674418604651163
+**********
+xgb:
+[07:46:40] WARNING: xgboost/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
+tp + fn:  8 : 438
+tp + fp:  8 : 438
+tp:  8 : 438
+recall:  1.0
+precision:  1.0
+f1_score:  1.0
+AUC:  1.0
